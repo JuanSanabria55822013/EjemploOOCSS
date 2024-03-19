@@ -14,7 +14,13 @@ header{
     justify-content: center;
     align-items: center;
 }
-
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
 .container{
     margin: 50px;
     width: 300px;
@@ -26,6 +32,22 @@ header{
     border: solid 1px #666666;
     border-radius: 20px;
     background-color: rgb(35, 35, 139);
+}
+
+.button {
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.secondary {
+  background-color: #e74c3c;
+  color: #fff;
 }
 
 h1{
